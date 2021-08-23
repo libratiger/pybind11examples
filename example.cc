@@ -25,7 +25,7 @@ static void export_other1(const std::string &name, py::module_ &m) {
 
 
 template <typename F>
-void export_other2(const std::string &name, py::module_ &m);
+void export_other2(const std::string &name, py::module_ &m){};
 
 
 PYBIND11_MODULE(example, m) {
