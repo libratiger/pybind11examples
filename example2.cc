@@ -15,3 +15,4 @@ void export_other2(const std::string &name, py::module_ &m) {
 }
 
 
+template void export_other2<Dog>(const std::string &name, py::module_ &m);
